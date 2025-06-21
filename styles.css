@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Young Serif";
+    src: local(young-serif),
+    url(./assets/fonts/young-serif/YoungSerif-Regular.ttf) format(TrueType);
+}
+
+@font-face {
+    font-family:"Outfit";
+    src: local(outfit)
+    url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format(TrueType);
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+
+html{
+    font-size:16px;
+    color:hsl(24, 5%, 18%);
+}
+
+body{
+    background:hsl(30, 54%, 90%);
+    width:100%;
+    height:100%;
+    box-sizing:content-box;
+}
+
+.page-wrapper{
+    width:40%;
+    min-width:375px;
+    margin:50px auto;
+    border-radius:20px;
+    background:hsl(0, 0%, 100%);
+    padding:40px;
+
+}
+
+.head-img img{
+    width:100%;
+    height: auto;
+    border-radius:20px;
+}
+
+h2, li::marker, .nutr-tab span{
+    color:hsl(14, 45%, 36%);
+}
+
+h1, h2{
+    margin:20px 0;
+    font-family:"Young Serif", sans-serif;
+}
+
+p, h2:first-child{
+    font-family:"Outfit", sans-serif;
+}
+
+.prep-se{
+    background:hsl(330, 100%, 98%);
+    padding:30px;
+    border-radius:20px;
+    line-height:1.5rem;
+}
+
+.prep-se h2{
+    font-size:20px;
+    color:hsl(332, 51%, 32%);
+    margin-top:0;
+}
+
+.nutr-tab p{
+    padding:20px 0 15px 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nutr-tab span{
+    margin-right:40%
+}
+
+.nutr-tab p:not(:last-child), section:not(:last-child, :first-child){
+    border-bottom:1px solid grey;
+}
+
+ul li, ol li{
+    padding-left:20px;
+    padding-bottom:10px;
+    margin-left:30px;
+}
+
+li::marker{
+    font-weight: 800;
+}
+
+.bold{
+    font-weight:800;
+}
+.marg-bot{
+    margin-bottom:20px;
+}
+
+.pad-bot{
+    padding-bottom:20px;
+}
+
+
+
+@media screen and (max-width: 425px){
+    .page-wrapper{
+        margin:0;
+        padding-top: 0;
+        width:100%;
+        border-radius:0px;
+    }
+
+    .head-img{
+        margin-left:-40px;
+        margin-right:-40px;
+    }
+
+    .head-img h1, .head-img p{
+        margin-left:40px;
+        margin-right:40px;
+    }
+
+    .head-img img{
+        border-radius:0px;
+    }
+}
