@@ -6,7 +6,7 @@
 
 @font-face {
     font-family:"Outfit";
-    src: local(outfit)
+    src: local(outfit),
     url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format(TrueType);
 }
 
