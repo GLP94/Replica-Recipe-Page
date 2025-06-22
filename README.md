@@ -2,7 +2,7 @@
 
 ![cop1](https://github.com/user-attachments/assets/5942fa54-c5c5-45c0-bd37-0c464b9ff99b)
 
-This is an attempt at one of the tasks featured in the [FrontEnd Mentor](site.www.frontendmentor.io) site.
+This is an attempt at one of the tasks featured in the [FrontEnd Mentor](www.frontendmentor.io) site.
 The task is to simply replicate an example of a recipe, with different assets and instructions already provided with the task.
 The page was also made for smaller screen (420px ~ 320px).
 
