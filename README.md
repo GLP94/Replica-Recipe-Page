@@ -15,7 +15,7 @@ The task is to simply replicate an example of a recipe, with different assets an
 * While `div` is often used as a container,  `section` has more semantic meaning for the document;
 * Using "utility" classes like `bold` to apply the bolding to the `span` elements in the paragraphs gives more flexibility;
 * `@font-face` had to be used, since the fonts were provided. It'll probably add more loading time to the page, because of the download requirements of the fonts;
-* * `display: flex` was used to distance the elements in the nutrients section.
+* `display: flex` was used to distance the elements in the nutrients section.
 * To make the image's width fully stretch to the sides of the screen, when below 420px, a combination of `margin-left` and `margin-right` were used with a negative value in px (i.e. -40px).
 
 <h2>## What Needs Work</h2>
